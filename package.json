@@ -1,0 +1,24 @@
+{
+  "name": "maktaba",
+  "main": "snippets.cson",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "maktaba:toggle"
+  },
+  "repository": "https://github.com/atom/maktaba",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "snippets": [
+    {
+      "name": "snippets",
+      "source": "snippets/snippets.cson"
+    }
+  ],
+  "dependencies": {
+  }
+}
